@@ -1,0 +1,16 @@
+<div class="home-container">
+  <h1>{{ 'home.title' | translate }}</h1>
+  <p>{{ 'home.welcome' | translate }}</p>
+
+  <section>
+    <h2>{{ 'home.registeredEvents' | translate }}</h2>
+    <div class="event-grid">
+      <app-event-summary
+        *ngFor="let event of events"
+        [event]="event"
+        [attendees]="getAttendeesForEvent(event.id)"
+        [averageRating]="getAverageRating(event.id)">
+      </app-event-summary>
+    </div>
+  </section>
+</div>

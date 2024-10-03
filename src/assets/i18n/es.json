@@ -1,0 +1,26 @@
+{
+  "toolbar": {
+    "home": "Inicio",
+    "rating": "Calificación"
+  },
+  "eventRating": {
+    "title": "Calificación del Evento",
+    "ticketIdentifier": "Identificador de Ticket",
+    "rating": "Calificación",
+    "rateEvent": "Calificar Evento",
+    "invalidTicket": "Identificador de Ticket Inválido",
+    "rateEventSuccess": "Evento calificado con éxito",
+    "invalidRating": "Por favor, ingrese una calificación válida e identificador de ticket",
+    "attendOnly": "Solo puedes calificar eventos a los que asististe"
+  },
+  "home": {
+    "welcome": "Bienvenido a Eventify",
+    "registeredEvents": "Eventos Registrados",
+    "checkedInAttendees": "Asistentes Registrados",
+    "averageRating": "Calificación Promedio"
+  },
+  "eventSummary": {
+    "checkedIn": "Asistentes Registrados",
+    "averageRating": "Calificación Promedio"
+  }
+}

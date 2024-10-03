@@ -1,0 +1,12 @@
+<div class="event-card">
+  <header>
+    <h3>{{ event.name }}</h3>
+  </header>
+  <div class="event-content">
+    <p>{{ event.description }}</p>
+  </div>
+  <footer>
+    <span>{{ 'eventSummary.checkedIn' | translate }}: {{ attendees }}</span>
+    <span>{{ 'eventSummary.averageRating' | translate }}: {{ averageRating }}</span>
+  </footer>
+</div>

@@ -1,0 +1,27 @@
+{
+  "toolbar": {
+    "home": "Home",
+    "rating": "Rating"
+  },
+  "eventRating": {
+    "title": "Event Rating",
+    "ticketIdentifier": "Ticket Identifier",
+    "rating": "Rating",
+    "rateEvent": "Rate Event",
+    "invalidTicket": "Invalid Ticket Identifier",
+    "rateEventSuccess": "Event successfully rated",
+    "invalidRating": "Please enter a valid rating and ticket identifier",
+    "attendOnly": "You can only rate events you have attended to"
+  },
+  "home": {
+    "welcome": "Welcome to Eventify",
+    "registeredEvents": "Registered Events",
+    "checkedInAttendees": "Checked-In Attendees",
+    "averageRating": "Average Rating"
+  },
+
+  "eventSummary": {
+    "checkedIn": "Checked-In Attendees",
+    "averageRating": "Average Rating"
+  }
+}
